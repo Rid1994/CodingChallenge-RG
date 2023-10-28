@@ -1,0 +1,76 @@
+*{box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover 
+   
+}
+.container{
+    width: 70%;
+    margin: auto;   
+    padding: 5%;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.5)
+    
+
+    /*logo e sottologo*/
+}
+.logo {
+   
+    width: 200px;
+    display:inline-block
+}
+header{
+    text-align: center
+}
+h2{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    
+}
+    /*Navigazione*/
+nav{
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    padding: 15px;
+}
+    /*Main*/
+.monopattini{
+    color: white;
+}   
+    
+.modello{
+    font-size: 30px;
+    color: white;
+    
+}
+.indirizzo{
+    font-size: 15px;
+}
+.charge{
+    margin-bottom: 0
+
+    ;
+}
+.barra1 {
+    background-color:orange ;
+    width: 350px;
+    height: 30px;  
+    display: inline-block;
+    border-radius: 5%;
+    
+}
+.barra2{    background-color:rgb(3, 184, 3) ;
+    width: 500px;
+    height: 30px;  
+    display: inline-block;
+    border-radius: 5%;
+
+}
+.barra3 { background-color: rgb(236, 27, 27);
+    width: 200px;
+    height: 30px;  
+    display: inline-block;
+    border-radius: 5%;
+
+}
